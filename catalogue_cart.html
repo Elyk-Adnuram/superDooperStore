@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue_Cart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./images_and_css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Hompage.html" target="blank"
+              >SuperDooperStore</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Hompage.html"
+                  target="blank"
+                  >Home</a
+                >
+                <a class="nav-link" href="sign_in.html" target="blank">Sign In</a>
+                                <a class="nav-link" href="catalogue_cart.html" target="blank">Catalogue_Cart</a>
+                <a class="nav-link" href="about.html" target="blank">About Us</a>
+                <a class="nav-link" href="contact_us.html" target="blank"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+            <div class="shopping-bag">
+                <a href="catalogue_cart.html">
+                    <img src="./images_and_css/shoppingcart.jpg" alt="cart">
+                    Cart
+                    <div class="total-items-in-cart">
+                        0
+                    </div>
+                </a>
+            </div>
+        
+        <main>
+            
+    <div class="products-list">
+        <div class="products">
+            <!-- render porducts here -->
+        </div>
+        <div class="cart">
+            <div class="cart-header">
+                <div class="column1">Item</div>
+                <div class="column2">Unit price</div>
+                <div class="column3">Units</div>
+            </div>
+            <div class="cart-items">
+                <!-- render cart items here -->
+            </div>
+            <div class="cart-footer">
+                <div class="subtotal">
+                    Subtotal (0 items): R0
+                </div>
+                <div class="checkout">
+                    Confirm order
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <script src="./javascript/jquery.js"></script>
+<script src="./javascript/products.js"></script>
+        <script src="./javascript/app.js"></script>
+</body>
+</html>

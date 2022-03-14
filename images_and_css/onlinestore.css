@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  padding: 30px;
+}
+
+/* styling of container class and implementing of grid */
+.container {
+  display: grid;
+  gap: 25px;
+  place-items: center;
+  height: 100vh;
+}
+
+/* styling of headerclass */
+.header {
+  font-size: larger;
+  text-align: left;
+  margin: 20px;
+  background-color: pink;
+  column-span: all;
+}
+.navbar {
+  font-size: large;
+}
+/* styling of landing class */
+.landing {
+  font-size: large;
+  margin-top: 30px;
+  text-align: center;
+
+  place-items: center;
+}
+/* styling of info class */
+.info {
+  text-align: center;
+  margin-top: 30px;
+  font-style: normal;
+  color: rgb(194, 51, 80);
+}
+
+/* styling of the footer */
+.footnote {
+  font-size: small;
+  font-style: oblique;
+  color: rgb(168, 45, 168);
+  margin-top: 15%;
+  text-align: center;
+  animation-name: change;
+  animation-duration: 4s;
+}
+
+.accordion {
+  margin: 0;
+  padding: 10px;
+  height: 20px;
+  border-top: #f0f0f0 1px solid;
+  background: #cccccc;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1em;
+}
